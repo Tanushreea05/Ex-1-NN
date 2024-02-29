@@ -37,7 +37,55 @@ STEP 5:Normalizing the data<BR>
 STEP 6:Splitting the data into test and train<BR>
 
 ##  PROGRAM:
-TYPE YOUR CODE HERE
+#import libraries
+from google.colab import files
+import pandas as pd
+import io
+from sklearn.preprocessing import StandardScaler
+from sklearn.preprocessing import MinMaxScaler
+from sklearn.model_selection import train_test_split
+
+#Read the dataset from drive
+df=pd.read_csv('/content/Churn_Modelling.csv')
+df
+
+# Finding Missing Values
+print(df.isnull().sum())
+
+#Handling Missing values
+df.fillna(df.mean(),inplace=True)
+print(df.isnull().sum())
+
+y=df.iloc[:,-1].values
+print(y)
+
+#Check for Duplicates
+df.duplicated()
+
+#Detect Outliers
+df.describe()
+
+#Normalize the dataset
+scaler=MinMaxScaler()
+df1=pd.DataFrame(scaler.fit_transform(data))
+print(df1)
+
+#split the dataset into input and output
+x=df.iloc[:, :-1].values
+print(x)
+y=df.iloc[:,-1].values
+print(y)
+
+#splitting the data for training & Testing
+X_train ,X_test ,y_train,y_test=train_test_split(x,y,test_size=0.2)
+
+#Print the training data and testing data
+print("X_train\n")
+print(X_train)
+print("\nLenght of X_train ",len(X_train))
+print("\nX_test\n")
+print(X_test)
+print("\nLenght of X_test ",len(X_test))
 
 
 ## OUTPUT:

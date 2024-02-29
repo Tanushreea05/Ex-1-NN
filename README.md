@@ -89,6 +89,28 @@ print("\nX_test\n")
 print(X_test)
 print("\nLenght of X_test ",len(X_test))
 ```
+### Output:
+### dataset:
+![1 nn op 1](https://github.com/Tanushreea05/Ex-1-NN/assets/138849166/2599dbc7-7b15-496e-b4df-6e95cef2b550)
+### Finding Missing Values:
+![1 nn op 2](https://github.com/Tanushreea05/Ex-1-NN/assets/138849166/ba7075e1-7a6c-49c9-aa83-e771b9f441a0)
+### Handling Missing values:
+![1 nn op 3](https://github.com/Tanushreea05/Ex-1-NN/assets/138849166/90f01d57-a777-4649-a50a-8ded8e73ed3d)
+### Duplicates:
+![1 nn op 4](https://github.com/Tanushreea05/Ex-1-NN/assets/138849166/3f28030a-dafc-49ad-9ffb-7a90a616c9e7)
+### Normalize the dataset:
+![1 nn op 5](https://github.com/Tanushreea05/Ex-1-NN/assets/138849166/bd1da2c9-5b02-44ea-acf7-778ee36e26a1)
+### split the dataset into input and output:
+![1 nn op 6](https://github.com/Tanushreea05/Ex-1-NN/assets/138849166/a931e62b-7168-4d12-b001-0d77fae90fc3)
+### splitting the data for training & Testing:
+![1 nn op 7](https://github.com/Tanushreea05/Ex-1-NN/assets/138849166/2d7604f4-d554-432a-a11d-567a80fb3fdc)
+
+
+
+
+
+
+
 ## RESULT:
 Thus, Implementation of Data Preprocessing is done in python  using a data set downloaded from Kaggle.
 

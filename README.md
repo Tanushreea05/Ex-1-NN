@@ -1,5 +1,5 @@
-<H3>ENTER YOUR NAME</H3>
-<H3>ENTER YOUR REGISTER NO.</H3>
+<H3>ENTER YOUR NAME</H3> Tanushree.A
+<H3>ENTER YOUR REGISTER NO.</H3> 212223100057
 <H3>EX. NO.1</H3>
 <H3>DATE</H3>
 <H1 ALIGN =CENTER> Introduction to Kaggle and Data preprocessing</H1>
@@ -38,6 +38,7 @@ STEP 6:Splitting the data into test and train<BR>
 
 ##  PROGRAM:
 
+```python
 #import libraries
 from google.colab import files
 import pandas as pd
@@ -87,12 +88,7 @@ print("\nLenght of X_train ",len(X_train))
 print("\nX_test\n")
 print(X_test)
 print("\nLenght of X_test ",len(X_test))
-
-
-## OUTPUT:
-SHOW YOUR OUTPUT HERE
-
-
+```
 ## RESULT:
 Thus, Implementation of Data Preprocessing is done in python  using a data set downloaded from Kaggle.
 
